@@ -1,0 +1,55 @@
+html {
+	font-family: georgia,arial;                
+	font-weight: 700;
+	font-size  : 1.2em;
+	min-height : 100%; /*etendre le background linear-gradient*/
+	background : linear-gradient(127deg,#FFFAF0 0 10%,#D3D3D3 20% 30%,#FFFAF0 40% 50%,#D3D3D3 60% 70%,#FFFAF0 80% 90%,#D3D3D3 95% 100%);
+}   
+
+#conteneur2, #conteneur3, #conteneur4, #conteneur5, #conteneur6, #conteneur7, #conteneur8 {                
+	background: linear-gradient(37deg,rgba(184,31,168,0.5438550420168067) 11%,rgba(184,31,70,0.76234243697479) 96%);
+}
+#conteneur3, #conteneur4, #conteneur5, #conteneur6, #conteneur7, #conteneur8, canvas {
+	display: none;            
+}
+h1 {
+	text-align  : center;
+	width       : 70%;
+	margin-left : auto;
+	margin-right: auto;                
+}
+button {
+	width: 20%;
+}
+
+canvas {                
+	width: 100%;                                
+}
+#conteneur1 {
+	margin-left : auto;
+	margin-right: auto;
+	width       : 50%;                
+	/*border      : 1px solid hotpink;*/
+}                       
+/*#conteneur2 :first-child {
+	margin-left: 15%;                 
+}*/
+#conteneur2 input {
+	width: 15%;                
+}  
+#conteneur3 p, #conteneur4 p, #conteneur5 p, #conteneur7 p, #conteneur8 p {
+	margin-left: 15%;                 
+}
+#conteneur2 label, #conteneur3 label, #conteneur6 label {
+	margin-left: 15%;                 
+}
+#conteneur4 span {
+	background: hotpink;
+	color     : gold;
+}
+#conteneur6 button {
+	display     : block;
+	margin-left : auto;
+	margin-right: auto;
+	width       : 35%;  
+}
